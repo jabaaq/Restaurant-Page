@@ -1,26 +1,11 @@
-const createContentPage = () => {
+const createContactPage = () => {
     const content = document.querySelector('#content')
     const pageContent = document.createElement('div')
     pageContent.classList.add('page-content')
 
     pageContent.innerHTML = `
-    <div class="restaurant-webpage">
-            <div class="div">
-                <div class="navbar">
-                    <div class="overlap-group">
-                        <div class="frame">
-                            <div class="home">Home</div>
-                            <div class="text-wrapper">Menu</div>
-                            <div class="text-wrapper">Contact</div>
-                        </div>
-                        <img class="line" src="img/line-1.svg" />
-                    </div>
-                </div>
-                <img class="menu" src="/img/menu.png" />
-                <img class="image" src="/img/image 2.png" />
                 <div class="overlap">
                     <div class="container">
-
                         <div class="modal">
                             <div class="modal__header">
                                 <span class="modal__title">CONTACT US</span><button class="button button--icon"><svg
@@ -56,4 +41,4 @@ const createContentPage = () => {
     content.appendChild(pageContent)
 }
 
-export default createContentPage;
+export default createContactPage;

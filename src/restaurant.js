@@ -7,18 +7,6 @@ const createRestaurantHomePage = () => {
 
     pageContent.innerHTML = `
     <div class="restaurant-webpage">
-    <div class="div">
-        <div class="navbar">
-            <div class="overlap-group">
-                <div class="frame">
-                    <div class="home">Home</div>
-                    <div class="text-wrapper">Menu</div>
-                    <div class="text-wrapper">Contact</div>
-                </div>
-            </div>
-        </div>
-        <img class="menu" src="/img/menu.png" />
-        <img class="image" src="/img/image 2.png" />
         <div class="overlap">
             <div class="overlap-2">
                 <div class="frame-2">
@@ -89,6 +77,7 @@ const createRestaurantHomePage = () => {
     </div>g
     `
     content.appendChild(pageContent)
+
 }
 
 export default createRestaurantHomePage

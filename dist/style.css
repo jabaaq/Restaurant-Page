@@ -4,11 +4,14 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 body {
     background-color: #ffeedd;
 }
+
+
 
 .restaurant-webpage {
     background-color: #ffeedd;
@@ -16,6 +19,7 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 100%;
+    /* right: 100px; */
 }
 
 .restaurant-webpage .div {
@@ -30,7 +34,7 @@ body {
     width: 252px;
     height: 32px;
     top: 67px;
-    left: 120px;
+    left: 70px;
 }
 
 .restaurant-webpage .overlap-group {
@@ -85,7 +89,7 @@ body {
     width: 40px;
     height: 40px;
     top: 63px;
-    left: 1206px;
+    left: 1150px;
 }
 
 .restaurant-webpage .image {
@@ -101,7 +105,6 @@ body {
     width: 1190px;
     height: 734px;
     top: 190px;
-    left: 120px;
 }
 
 .restaurant-webpage .overlap-2 {
@@ -425,16 +428,16 @@ body {
 
 .container {
     position: absolute;
-    top: 0;
-    left: -50px;
+    top: 100px;
+    left: -20px;
     right: 0;
     bottom: 100px;
     width: 100%;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 1.5rem;
-    font-family: 'Carter One', cursive;
 }
 
 .modal {
