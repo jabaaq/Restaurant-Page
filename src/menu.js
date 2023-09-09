@@ -9,6 +9,7 @@ const createMenuPage = () => {
             <img class="menu-image" src="/img/Menu image.jpg" alt="Menu" srcset="">
         </div>
     </div>
+
     `
 
     content.appendChild(pageContent)
